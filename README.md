@@ -22,7 +22,7 @@ The distinction is not a Fable persona, a larger prompt, or a claim that one mod
 
 The skill's activation boundary is defined directly in its frontmatter:
 
-> Run evidence-driven research, implementation, review, and repair workflows with explicit scope, bounded delegation, verification, failure logging, and human-auditable delivery. Use for complex or consequential tasks where unsupported claims, silent omissions, false completion, permission drift, or unverified outputs would matter; skip trivial requests that need no investigation or validation.
+> Audit, fact-check, and verify research, implementations, repairs, and output files with explicit scope, bounded delegation, failure logging, and human-auditable delivery. Use when asked to “verify this actually works,” “check the output file,” “confirm it really finished,” investigate silent omissions or false completion, or review permission drift; skip trivial requests that need no investigation or validation.
 
 ## What it does
 

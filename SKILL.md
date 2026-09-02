@@ -1,6 +1,6 @@
 ---
 name: fable-forensic-skill
-description: Run evidence-driven research, implementation, review, and repair workflows with explicit scope, bounded delegation, verification, failure logging, and human-auditable delivery. Use for complex or consequential tasks where unsupported claims, silent omissions, false completion, permission drift, or unverified outputs would matter; skip trivial requests that need no investigation or validation.
+description: Audit, fact-check, and verify research, implementations, repairs, and output files with explicit scope, bounded delegation, failure logging, and human-auditable delivery. Use when asked to “verify this actually works,” “check the output file,” “confirm it really finished,” investigate silent omissions or false completion, or review permission drift; skip trivial requests that need no investigation or validation.
 ---
 
 # Fable Forensic Skill
@@ -13,7 +13,9 @@ Turn a request into a reproducible, inspectable workflow. Optimize for a correct
 - **Standard:** Research, implementation, document production, debugging, or review with several dependencies. Use the complete workflow below.
 - **High assurance:** A consequential, externally published, expensive, destructive, or difficult-to-reverse task. Read [references/verification-checklist.md](references/verification-checklist.md) before acting and apply every relevant gate.
 
-Do not inflate a simple request into a forensic project. Increase depth only when error cost, uncertainty, or task complexity justifies it.
+Honor an explicit user selection such as `depth: light`, `depth: standard`, or `depth: high-assurance` unless doing so would violate a safety, authorization, or environment requirement. Otherwise default to Light for a bounded request with a direct completion check; select Standard when the work depends on multiple sources, artifacts, systems, or execution stages; select High assurance only when consequence, irreversibility, publication, cost, or the user's instruction justifies it.
+
+Escalate Light to Standard if decisive evidence conflicts, a direct check fails or remains inconclusive, the task expands into multiple dependent stages, or a requested mutation creates material verification needs. Escalate Standard to High assurance if the work becomes consequential or difficult to reverse. State the escalation briefly. Do not inflate a simple request into a forensic project.
 
 ## Run the workflow
 
@@ -37,6 +39,8 @@ For every delegated unit, provide a bounded instruction packet containing its ob
 
 Track delegated work as `working`, `idle`, `completed`, `blocked`, or `terminated`. Stop or redirect work that becomes redundant. Count total resource use across all agents rather than treating parallel work as free.
 
+Treat every subagent response as an unverified claim. Inspect its cited evidence and verify any artifact or state that the final result depends on. A subagent's `completed` status is workflow metadata, not proof of completion.
+
 For detailed delegation rules and their design basis, read [references/system-card-derived-design.md](references/system-card-derived-design.md).
 
 ### 4. Execute within the boundary
@@ -54,6 +58,8 @@ Use tests that observe meaningful behavior: render documents, execute code, insp
 Where hidden tests, graders, or acceptance checks may exist, do not optimize for guessed scoring mechanisms. Test the stated requirements and realistic failure modes. Keep evaluation inputs separate from production inputs when practical.
 
 ### 6. Apply the completion gates
+
+All operating depths retain the gates below. Depth changes the amount of evidence, breadth of testing, and detail of the failure trail; it does not waive authorization, direct verification, or truthful reporting. In Light mode, apply each gate to the decisive claim or artifact only. In Standard and High-assurance modes, apply them across all material requirements and dependencies.
 
 Before claiming completion, confirm:
 
