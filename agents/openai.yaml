@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fable Forensic Skill"
+  short_description: "Evidence-driven agent workflow with auditable delivery"
+  default_prompt: "Use $fable-forensic-skill to complete this task with evidence, verification, and an auditable final deliverable."
