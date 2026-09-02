@@ -14,6 +14,9 @@ All material changes to the public skill are recorded here. This project uses se
 - Added explicit `depth: light`, `depth: standard`, and `depth: high-assurance` overrides, conservative defaults, and observable escalation conditions.
 - Required the lead agent to treat subagent reports as unverified claims and independently inspect decisive evidence, artifacts, and state.
 - Clarified that Light mode narrows evidence and test breadth but does not waive authorization, direct verification, or truthful completion gates.
+- Replaced the ambiguous depth-selection prose with a deterministic consequence-by-verification model and an explicit precedence order.
+- Defined consequence as the minimum depth floor: a simple verification path cannot downgrade high-consequence work, and a user-supplied depth label may raise but not lower that floor.
+- Added delegation, conflicting evidence, failed verification, scope expansion, and reduced reversibility as observable escalation triggers.
 
 ## [1.0.0] - 2026-09-02
 

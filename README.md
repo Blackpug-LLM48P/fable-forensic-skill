@@ -97,11 +97,11 @@ Automatic discovery may also select it for complex tasks where evidence, permiss
 
 ## Operating depths
 
-- **Light:** Verify the decisive facts and disclose material limitations.
-- **Standard:** Run the complete evidence-to-delivery workflow.
-- **High assurance:** Apply the full [verification checklist](references/verification-checklist.md).
+- **Light:** Low consequence and directly verifiable.
+- **Standard:** Material consequence or multi-stage verification.
+- **High assurance:** High consequence or difficult reversibility; apply the full [verification checklist](references/verification-checklist.md).
 
-The skill intentionally avoids turning every small request into an investigation. Rigor should scale with uncertainty, complexity, and the cost of error.
+Consequence takes precedence over verification simplicity. A production action does not become Light merely because one command or one check can complete it. A user may request a deeper mode, but cannot use a depth label to lower the required minimum. The skill intentionally avoids turning every small request into an investigation while preserving a hard floor for consequential work.
 
 ## What this is not
 

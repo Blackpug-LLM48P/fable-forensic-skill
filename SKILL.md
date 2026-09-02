@@ -9,13 +9,20 @@ Turn a request into a reproducible, inspectable workflow. Optimize for a correct
 
 ## Select the operating depth
 
-- **Light:** A limited task with one or two checkable claims. Verify the decisive facts and state material limitations.
-- **Standard:** Research, implementation, document production, debugging, or review with several dependencies. Use the complete workflow below.
-- **High assurance:** A consequential, externally published, expensive, destructive, or difficult-to-reverse task. Read [references/verification-checklist.md](references/verification-checklist.md) before acting and apply every relevant gate.
+Classify the task on two axes before acting:
 
-Honor an explicit user selection such as `depth: light`, `depth: standard`, or `depth: high-assurance` unless doing so would violate a safety, authorization, or environment requirement. Otherwise default to Light for a bounded request with a direct completion check; select Standard when the work depends on multiple sources, artifacts, systems, or execution stages; select High assurance only when consequence, irreversibility, publication, cost, or the user's instruction justifies it.
+- **Consequence:** low, material, or high/difficult to reverse.
+- **Verification complexity:** direct or multi-stage.
 
-Escalate Light to Standard if decisive evidence conflicts, a direct check fails or remains inconclusive, the task expands into multiple dependent stages, or a requested mutation creates material verification needs. Escalate Standard to High assurance if the work becomes consequential or difficult to reverse. State the escalation briefly. Do not inflate a simple request into a forensic project.
+Consequence takes precedence over verification simplicity. A high-consequence task is never Light even if one direct check can verify it. Apply the minimum depth in this order:
+
+1. **High assurance:** High consequence or difficult reversibility, including production impact, destructive or expensive action, external publication or transmission, sensitive-domain advice, or material third-party impact. Read [references/verification-checklist.md](references/verification-checklist.md) before acting.
+2. **Standard:** Material consequence or multi-stage verification, including work spanning multiple sources, artifacts, systems, tools, or dependent execution stages.
+3. **Light:** Low consequence and direct verification. Apply the workflow only to the decisive claims and artifact.
+
+Treat `depth: light`, `depth: standard`, or `depth: high-assurance` as a requested depth. The user may raise the depth, but may not lower it below the consequence-and-complexity minimum. This preserves user control without allowing a label to waive authorization, safety, or verification requirements.
+
+Escalate one level if decisive evidence conflicts, a verification step fails or remains inconclusive, scope materially expands, delegation becomes necessary, or the work becomes harder to reverse. State the escalation and its trigger briefly. Do not inflate a simple request into a forensic project.
 
 ## Run the workflow
 
