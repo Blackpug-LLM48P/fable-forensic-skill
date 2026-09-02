@@ -12,6 +12,18 @@ No, it is not a magic prompt.
 
 It is quality assurance wearing an influencer's coat.
 
+## What makes this different
+
+This skill translates page-level system card findings into practical workflow controls for evidence, delegation, authorization, and completion verification.
+
+The distinction is not a Fable persona, a larger prompt, or a claim that one model is “best.” The repository shows how specific evaluation findings become operational rules, with page-level attribution and explicit limits on what can be concluded.
+
+**Do not evaluate this project from the landing page alone.** Read the actual [SKILL.md](SKILL.md), then inspect the [system-card-derived design notes](references/system-card-derived-design.md).
+
+The skill's activation boundary is defined directly in its frontmatter:
+
+> Run evidence-driven research, implementation, review, and repair workflows with explicit scope, bounded delegation, verification, failure logging, and human-auditable delivery. Use for complex or consequential tasks where unsupported claims, silent omissions, false completion, permission drift, or unverified outputs would matter; skip trivial requests that need no investigation or validation.
+
 ## What it does
 
 - Establishes an explicit task and authorization boundary
@@ -103,3 +115,7 @@ The skill intentionally avoids turning every small request into an investigation
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+## Revision history
+
+See [CHANGELOG.md](CHANGELOG.md) for the public record of material changes and their rationale.
