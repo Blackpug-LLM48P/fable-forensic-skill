@@ -224,15 +224,15 @@ Sing, Refactor, Redesign.
 
 以下の資料が、SOLIDとセキュリティの対応関係を主張しているわけではない。本文中の設計例と両者の接続は筆者による解釈である。
 
-1. Robert C. Martin, The Single Responsibility Principle（https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html）, 2014.
-2. Anthropic, Scaling Managed Agents: Decoupling the brain from the hands（https://www.anthropic.com/engineering/managed-agents）, 2026-04-08.
-3. Robert C. Martin, The Open Closed Principle（https://blog.cleancoder.com/uncle-bob/2014/05/12/TheOpenClosedPrinciple.html）, 2014.
-4. Barbara H. Liskov / Jeannette M. Wing, A Behavioral Notion of Subtyping（https://www.cs.cmu.edu/~wing/publications/LiskovWing94.pdf）, ACM TOPLAS, 1994.
-5. Robert C. Martin, Design Principles and Design Patterns（https://objectmentor.com/resources/articles/Principles_and_Patterns.pdf）, 2000. 補足：Solid Relevance（https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html）, 2020.
-6. NIST CSRC, least privilege（https://csrc.nist.gov/glossary/term/least_privilege）.
-7. Anthropic, How we contain Claude across products（https://www.anthropic.com/engineering/how-we-contain-claude）, 2026-05-25.
-8. Anthropic, Beyond permission prompts: making Claude Code more secure and autonomous（https://www.anthropic.com/engineering/claude-code-sandboxing）, 2025-10-20.
-9. NIST, SP 800-207: Zero Trust Architecture（https://csrc.nist.gov/pubs/sp/800/207/final）, 2020.
-10. CISA, Updated Secure by Design Principles Joint Guideの発表（https://content.govdelivery.com/accounts/USDHSCISA/bulletins/3761d70）, 2023.
-11. タイムズカー, 「タイムズカーWebサイト」への不正アクセスに関する調査結果および今後の対応について（第2報）（https://share.timescar.jp/news/2026/0928/1815.html）, 2026-09-28.
+1. Robert C. Martin, The Single Responsibility Principle（<https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html>）, 2014.
+2. Anthropic, Scaling Managed Agents: Decoupling the brain from the hands（<https://www.anthropic.com/engineering/managed-agents>）, 2026-04-08.
+3. Robert C. Martin, The Open Closed Principle（<https://blog.cleancoder.com/uncle-bob/2014/05/12/TheOpenClosedPrinciple.html>）, 2014.
+4. Barbara H. Liskov / Jeannette M. Wing, A Behavioral Notion of Subtyping（<https://www.cs.cmu.edu/~wing/publications/LiskovWing94.pdf>）, ACM TOPLAS, 1994.
+5. Robert C. Martin, Design Principles and Design Patterns（<https://objectmentor.com/resources/articles/Principles_and_Patterns.pdf>）, 2000. 補足：Solid Relevance（<https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html>）, 2020.
+6. NIST CSRC, least privilege（<https://csrc.nist.gov/glossary/term/least_privilege>）.
+7. Anthropic, How we contain Claude across products（<https://www.anthropic.com/engineering/how-we-contain-claude>）, 2026-05-25.
+8. Anthropic, Beyond permission prompts: making Claude Code more secure and autonomous（<https://www.anthropic.com/engineering/claude-code-sandboxing>）, 2025-10-20.
+9. NIST, SP 800-207: Zero Trust Architecture（<https://csrc.nist.gov/pubs/sp/800/207/final>）, 2020.
+10. CISA, Updated Secure by Design Principles Joint Guideの発表（<https://content.govdelivery.com/accounts/USDHSCISA/bulletins/3761d70>）, 2023.
+11. タイムズカー, 「タイムズカーWebサイト」への不正アクセスに関する調査結果および今後の対応について（第2報）（<https://share.timescar.jp/news/2026/0928/1815.html>）, 2026-09-28.
 
