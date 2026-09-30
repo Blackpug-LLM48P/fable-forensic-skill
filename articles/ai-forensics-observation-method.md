@@ -389,18 +389,18 @@ E01は外界への主張を対象にする。E02〜E07は、その項目が扱�
 
 ［1］Ari Holtzman, Jan Buys, Li Du, Maxwell Forbes, Yejin Choi. *The Curious Case of Neural Text Degeneration*. ICLR 2020. arXiv:1904.09751v2.
 
-https://arxiv.org/abs/1904.09751v2
+[一次資料（arXiv）](https://arxiv.org/abs/1904.09751v2)
 
 ［2］Clara Meister, Tiago Pimentel, Gian Wiher, Ryan Cotterell. *Locally Typical Sampling*. Transactions of the Association for Computational Linguistics, 11, 102–121, 2023. DOI: 10.1162/tacl_a_00536.
 
-https://aclanthology.org/2023.tacl-1.7/
+[一次資料（ACL Anthology）](https://aclanthology.org/2023.tacl-1.7/)
 
 ［3］Long Ouyang et al. *Training language models to follow instructions with human feedback*. NeurIPS 2022.
 
-https://proceedings.neurips.cc/paper_files/paper/2022/file/b1efde53be364a73914f58805a001731-Paper-Conference.pdf
+[一次資料（NeurIPS公式PDF）](https://proceedings.neurips.cc/paper_files/paper/2022/file/b1efde53be364a73914f58805a001731-Paper-Conference.pdf)
 
 ［4］Yonatan Geifman, Ran El-Yaniv. *Selective Classification for Deep Neural Networks*. NeurIPS 2017.
 
-https://proceedings.neurips.cc/paper_files/paper/2017/file/4a8423d5e91fda00bb7e46540e2b0cf1-Paper.pdf
+[一次資料（NeurIPS公式PDF）](https://proceedings.neurips.cc/paper_files/paper/2017/file/4a8423d5e91fda00bb7e46540e2b0cf1-Paper.pdf)
 
 文献は、デコード、典型性、事後学習、選択的分類の各論点を支えるために参照した。四面の設計や29項目の妥当性を、これらの文献が直接検証したとは扱わない。
