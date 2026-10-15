@@ -6,6 +6,7 @@ All material changes to the public skill are recorded here. This project uses se
 
 ### Changed — 2026-10-16
 
+- Corrected the unpublished article's Zenn rendering: use a single-line rights comment, render the rights label as bold text, and expose all eight primary references as direct links.
 - Expanded the unpublished Japanese theory article to v0.2, approximately 15,000 non-whitespace characters, with worked examples, probability and decoding distinctions, audit states, evidence handling, and an evaluation plan.
 - Added primary references on decoding, local typicality, detector robustness, and language-related detector bias; distinguished proposed designs from measured results.
 - Retained `published: false` and the article-specific rights reservation; the forensic prompt and private evaluation materials remain excluded.

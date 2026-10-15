@@ -6,10 +6,7 @@ topics: ["ai", "llm", "nlp", "文章", "研究"]
 published: false
 ---
 
-<!-- Copyright (c) 2026 Blackpug-LLM48P. All rights reserved.
-This newly authored article is excluded from the repository's default MIT license.
-See ../rights/ai-forensics-relation-level-methodology.txt.
--->
+<!-- Copyright (c) 2026 Blackpug-LLM48P. All rights reserved. This newly authored article is excluded from the repository's default MIT license. See ../rights/ai-forensics-relation-level-methodology.txt. -->
 
 「同じ言葉が多いので、AIが書いた文章だと思います」
 
@@ -437,7 +434,7 @@ Sadasivanらは、対象とした検出方式の頑健性を言い換え等で�
 
 鑑識プロンプト本文、起動指示、モード別の実行手順、具体的な閾値や例外処理、未公開の評価資料は、この発表には含めません。本稿だけで、非公開の鑑識プロンプトや検証一式を再現できるとはしていません。
 
-この新規原稿の本文・図表・作例は、**All rights reserved（権利留保）**で公開します。包括的な複製・転載・翻案・再配布の許諾は行っていません。法令上許される引用その他の利用、および公開先の規約に基づく許諾を除き、利用には権利者の事前許諾が必要です。
+この新規原稿の本文・図表・作例は、**All rights reserved** （権利留保）で公開します。包括的な複製・転載・翻案・再配布の許諾は行っていません。法令上許される引用その他の利用、および公開先の規約に基づく許諾を除き、利用には権利者の事前許諾が必要です。
 
 この表示は、既に別条件で許諾された資料や版、第三者の著作物、著作権の保護対象外の要素へ、新しい制限を加えるものではありません。理論のアイデアそのものの独占を主張するものでもありません。
 
@@ -450,27 +447,27 @@ Sadasivanらは、対象とした検出方式の頑健性を言い換え等で�
 ## 参考資料
 
 ［1］William C. Mann / Maite Taboada. *RST Definitions*. Rhetorical Structure Theory公式資料。  
-https://www.sfu.ca/rst/01intro/definitions.html
+[原文を読む](https://www.sfu.ca/rst/01intro/definitions.html)
 
 ［2］Christian Stab, Iryna Gurevych. 2017. *Parsing Argumentation Structures in Persuasive Essays*. Computational Linguistics, 43(3), 619–659.  
-https://aclanthology.org/J17-3005/
+[原文を読む](https://aclanthology.org/J17-3005/)
 
 ［3］Lianmin Zheng et al. 2023. *Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena*.  
-https://arxiv.org/abs/2306.05685v4
+[原文を読む](https://arxiv.org/abs/2306.05685v4)
 
 ［4］Yonatan Geifman, Ran El-Yaniv. 2017. *Selective Classification for Deep Neural Networks*.  
-https://arxiv.org/abs/1705.08500v2
+[原文を読む](https://arxiv.org/abs/1705.08500v2)
 
 ［5］Ari Holtzman et al. 2020. *The Curious Case of Neural Text Degeneration*. ICLR 2020.  
-https://arxiv.org/abs/1904.09751v2
+[原文を読む](https://arxiv.org/abs/1904.09751v2)
 
 ［6］Clara Meister, Tiago Pimentel, Gian Wiher, Ryan Cotterell. 2023. *Locally Typical Sampling*. Transactions of the Association for Computational Linguistics, 11, 102–121.  
-https://aclanthology.org/2023.tacl-1.7/
+[原文を読む](https://aclanthology.org/2023.tacl-1.7/)
 
 ［7］Vinu Sankar Sadasivan et al. *Can AI-Generated Text be Reliably Detected?* 2023年初稿、参照版v4は2025年。  
-https://arxiv.org/abs/2303.11156v4
+[原文を読む](https://arxiv.org/abs/2303.11156v4)
 
 ［8］Weixin Liang et al. 2023. *GPT detectors are biased against non-native English writers*.  
-https://arxiv.org/abs/2304.02819v3
+[原文を読む](https://arxiv.org/abs/2304.02819v3)
 
 各資料は、談話関係、論証解析、LLM評価の偏り、保留、デコード、典型性、出自検出の論点を参照するために挙げています。本稿の四面や監査規約そのものの妥当性を、これらの資料が直接検証したという意味ではありません。
