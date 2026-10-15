@@ -1,6 +1,6 @@
 AI鑑識学・公開理論稿の権利表示
 対象：articles/ai-forensics-relation-level-methodology.md
-版：公開理論稿 v0.1
+版：公開理論稿 v0.2
 作成日：2026-10-16
 権利者：Blackpug-LLM48P
 

@@ -4,6 +4,12 @@ All material changes to the public skill are recorded here. This project uses se
 
 ## [Unreleased]
 
+### Changed — 2026-10-16
+
+- Expanded the unpublished Japanese theory article to v0.2, approximately 15,000 non-whitespace characters, with worked examples, probability and decoding distinctions, audit states, evidence handling, and an evaluation plan.
+- Added primary references on decoding, local typicality, detector robustness, and language-related detector bias; distinguished proposed designs from measured results.
+- Retained `published: false` and the article-specific rights reservation; the forensic prompt and private evaluation materials remain excluded.
+
 ### Added — 2026-10-16
 
 - Added a new Japanese Zenn theory draft, `articles/ai-forensics-relation-level-methodology.md`, with `published: false`.
