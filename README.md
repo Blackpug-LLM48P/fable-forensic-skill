@@ -1,5 +1,21 @@
 # Stop Writing Bigger Prompts
 
+## AI鑑識学の公開理論（日本語）
+
+**[AI鑑識学の公開理論：関係・機能・保留を監査する](https://zenn.dev/git_dungeon/articles/ai-forensics-relation-level-methodology)**  
+公開理論稿 v0.2／2026年10月16日公開
+
+生成AIを含む文章の鑑識について、関係を単位にした観察、確認待ち、機能の所見、所見内の主張の混在をまとめています。
+
+- [記事のMarkdown原稿](articles/ai-forensics-relation-level-methodology.md)
+- [引用用の固定版](https://github.com/Blackpug-LLM48P/fable-forensic-skill/blob/2822ca6de06e5baacc988831f2fe81e3be552541/articles/ai-forensics-relation-level-methodology.md)
+- [公開範囲・引用例・更新手順](docs/ai-forensics-publication.md)
+- [記事専用の権利表示](rights/ai-forensics-relation-level-methodology.txt)
+
+記事本文は **All rights reserved** です。鑑識プロンプト本文と非公開の評価資料は含みません。以下では、このリポジトリに収録するFable Forensic Skillを説明します。
+
+## Fable Forensic Skill
+
 Your agent does not need another 4,000-word persona.
 
 It needs a workflow that can survive contact with evidence.
@@ -114,7 +130,7 @@ Consequence takes precedence over verification simplicity. A production action d
 
 ## License
 
-MIT applies to the skill and existing materials covered by [LICENSE](LICENSE). The newly authored [AI forensics theory draft](articles/ai-forensics-relation-level-methodology.md) is separately marked **All rights reserved**; see its [rights notice](rights/ai-forensics-relation-level-methodology.txt). This exception does not revoke permissions already granted for earlier materials or versions.
+MIT applies to the skill and existing materials covered by [LICENSE](LICENSE). The newly authored [AI forensics theory article](articles/ai-forensics-relation-level-methodology.md) is separately marked **All rights reserved**; see its [rights notice](rights/ai-forensics-relation-level-methodology.txt). This exception does not revoke permissions already granted for earlier materials or versions.
 
 ## Revision history
 
