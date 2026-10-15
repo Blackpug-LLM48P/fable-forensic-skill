@@ -3,7 +3,7 @@ title: "AI鑑識学の公開理論：関係・機能・保留を監査する"
 emoji: "🔍"
 type: "tech"
 topics: ["ai", "llm", "nlp", "文章", "研究"]
-published: false
+published: true
 ---
 
 <!-- Copyright (c) 2026 Blackpug-LLM48P. All rights reserved. This newly authored article is excluded from the repository's default MIT license. See ../rights/ai-forensics-relation-level-methodology.txt. -->
