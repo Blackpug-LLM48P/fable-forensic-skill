@@ -1,0 +1,29 @@
+AI鑑識学・公開理論稿の権利表示
+対象：articles/ai-forensics-relation-level-methodology.md
+版：公開理論稿 v0.1
+作成日：2026-10-16
+権利者：Blackpug-LLM48P
+
+Copyright (c) 2026 Blackpug-LLM48P. All rights reserved.
+
+This newly authored article is excluded from the repository's default MIT license.
+No general license to reproduce, adapt, redistribute, or commercially reuse its
+copyright-protected expression is granted. Permission must be obtained from the
+rights holder unless applicable law or the publishing platform's terms permit
+the particular use.
+
+The notice does not limit quotation or other statutory exceptions, rights
+granted under the hosting platform's terms (including GitHub viewing and
+forking), rights already granted in previously licensed versions or materials,
+third-party rights, or uses of ideas, facts, and other unprotectable elements.
+
+本新規原稿の本文・図表・作例について、包括的な複製・転載・翻案・再配布の
+許諾は行っていません。法令上許される引用その他の利用、および公開先の
+規約に基づく許諾を除き、利用には権利者の事前許諾が必要です。
+
+この表示は、既に別条件で許諾された資料・版、第三者の著作物、著作権保護の
+対象外の要素へ、新しい制限を加えるものではありません。理論のアイデア
+そのものの独占を主張しません。
+
+研究上の参照では、著者、資料名、版、実際に参照したURLを対応付けてください。
+本権利表示自体の表示・複製は、対象原稿の利用条件を伝える目的で認めます。

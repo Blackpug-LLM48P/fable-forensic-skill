@@ -4,6 +4,13 @@ All material changes to the public skill are recorded here. This project uses se
 
 ## [Unreleased]
 
+### Added — 2026-10-16
+
+- Added a new Japanese Zenn theory draft, `articles/ai-forensics-relation-level-methodology.md`, with `published: false`.
+- Documented relation-level evidence, auditable deferral, affirmative function findings, and mixed support within a finding, with synthetic examples and primary references.
+- Added a file-specific All rights reserved notice for this new article and clarified the default MIT scope without changing permissions already granted for earlier materials.
+
+
 ### Changed
 
 - Moved the repository's primary differentiator near the top of the README: page-level system card findings are translated into practical workflow controls.

@@ -114,7 +114,7 @@ Consequence takes precedence over verification simplicity. A production action d
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+MIT applies to the skill and existing materials covered by [LICENSE](LICENSE). The newly authored [AI forensics theory draft](articles/ai-forensics-relation-level-methodology.md) is separately marked **All rights reserved**; see its [rights notice](rights/ai-forensics-relation-level-methodology.txt). This exception does not revoke permissions already granted for earlier materials or versions.
 
 ## Revision history
 
