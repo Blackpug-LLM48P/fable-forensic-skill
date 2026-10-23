@@ -1,0 +1,21 @@
+title: "AI鑑識学をつくる — 開発の試行錯誤とv5への変遷"
+summary: "文章を読んだときの違和感を、どのように確かめられる観察へ変えていくか。特徴の収集、関係と機能の記録、保留の設計、v5.1・v5.2の実装と引用の失敗までをたどる開発ノート。現在も続く開発の途中経過を、具体例から読み解きます。"
+topics: ["llm", "生成ai", "自然言語処理", "文章", "開発"]
+published: false
+price: 0
+toc_depth: 2
+chapters:
+  - introduction
+  - origin
+  - pattern-limits
+  - turning-v5
+  - relations
+  - useful-pending
+  - function-and-mixing
+  - testing-the-tool
+  - v51-product
+  - v52-retention
+  - citation-trap
+  - continuing-development
+  - observation-guide
+  - reading-notes
